@@ -1,0 +1,44 @@
+spring.rabbitmq.host= localhost
+spring.rabbitmq.port= 5672
+spring.rabbitmq.username= guest
+spring.rabbitmq.password= guest
+
+
+amqp.logistics.event.exchange= logisticsEventEx
+amqp.logistics.event.queue= logisticsEventQueue
+amqp.logistics.event.routingkey=logisticsEvent
+
+amqp.logistics.command.exchange= logisticsCommandEx
+amqp.logistics.command.queue= logisticsCommandQueue
+amqp.logistics.command.routingkey= logisticsCommand
+
+amqp.logistics.data.exchange= logisticsDataEx
+amqp.logistics.data.queue= logisticsDataQueue
+amqp.logistics.data.routingkey= logisticsData
+
+
+# refdata service AMQP
+amqp.refdata.event.exchange= refDataEventEx
+amqp.refdata.event.queue= refDataEventQueue
+amqp.refdata.event.routingkey= refDataEvent
+
+amqp.refdata.command.exchange= refDataCommandEx
+amqp.refdata.command.queue= refDataCommandQueue
+amqp.refdata.command.routingkey= refDataCommand
+
+amqp.refdata.data.exchange= refDataDataEx
+amqp.refdata.data.queue= refDataDataQueue
+amqp.refdata.data.routingkey= refDataData
+
+# trade service AMQP 
+amqp.trade.event.exchange= tradeEventEx
+amqp.trade.event.queue= tradeEventQueue
+amqp.trade.event.routingkey= tradeEvent
+
+amqp.trade.command.exchange= tradeCommandEx
+amqp.trade.command.queue= tradeCommandQueue
+amqp.trade.command.routingkey= tradeCommand
+
+amqp.trade.data.exchange= tradeDataEx
+amqp.trade.data.queue= tradeDataQueue
+amqp.trade.data.routingkey= tradeData
